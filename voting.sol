@@ -49,5 +49,10 @@ contract Voting {
         }
         return totalVotes;
     }
+
+    function setScore(){
+
+        uint256 amount = 10
+    }
     
     //
