@@ -54,5 +54,11 @@ contract Voting {
 
         uint256 amount = 10
     }
+
+    struct user{
+        uint256 amount;
+        string name;
+        uint value;
+    }
     
     //
