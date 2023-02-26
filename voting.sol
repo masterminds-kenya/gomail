@@ -55,6 +55,8 @@ contract Voting {
         uint256 amount = 10
     }
 
+    event Createuser(uint amount , string name)
+
     struct user{
         uint256 amount;
         string name;
