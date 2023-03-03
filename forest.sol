@@ -2,8 +2,14 @@ pragma solidity ^0.8.0;
 
 contract TreePlantingRewards {
     
+
+ constructor(){
+    uint256  value,
+    string  name
+ }
     mapping(address => uint256) public treesPlanted;
     mapping(address => bool) public eligibleForRewards;
+    mapping (address =>uint )public  balance ;
     
     uint256 public constant REWARD_AMOUNT = 1000; // reward amount in wei
     
