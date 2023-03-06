@@ -6,6 +6,9 @@ contract TreePlantingRewards {
  constructor(){
     uint256  value,
     string  name
+    string imageNam/// @notice Explain to an end user what this does
+    /// @dev Explain to a developer any extra details
+    /// @param Documents a parameter just like in doxygen (must be followed by parameter name)
  }
     mapping(address => uint256) public treesPlanted;
     mapping(address => bool) public eligibleForRewards;
