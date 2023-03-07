@@ -14,6 +14,12 @@ contract TreePlantingRewards {
     mapping(address => bool) public eligibleForRewards;
     mapping (address =>uint )public  balance ;
     
+
+
+    struct Mike{
+        uint  balance;
+        string name;
+    }
     uint256 public constant REWARD_AMOUNT = 1000; // reward amount in wei
     
     event TreesPlanted(address indexed user, uint256 numTrees);
